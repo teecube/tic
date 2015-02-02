@@ -11,6 +11,16 @@
 		</menu>
 		-->
 		<menu name="Reports" ref="reports" />
+
+		<menu name="${ecosystemName}">
+			<item name="Current versions" href="${repositorySiteURL}/current-versions.html" />
+			<item name="" />
+			<item name="TIC" href="${repositorySiteURL}/tic/index.html" />
+			<item name="- ${ticName} Maven plugin" href="${repositorySiteURL}/tic/tic-maven/index.html" />
+			<item name="" />
+			<item name="TAC" href="${repositorySiteURL}/tac/index.html" />
+			<item name="TOE" href="${repositorySiteURL}/toe/index.html" />
+		</menu>
 	</body>
 
 	<custom>
@@ -21,7 +31,7 @@
 			<brand>
 				<name>
 		          <![CDATA[
-		          <style>.navbar .brand { padding: 5px 20px;}</style><a class="brand" href="${repositorySiteURL}/index.html">${ecosystemNameHighlight2}</a><span class="brand" style="padding: 5px 5px;">/</span><a class="brand" href="${repositorySiteURL}/${project.artifactId}/index.html">${ticName}</a>
+		          <style>.navbar .brand { padding: 5px 20px;}</style><a class="brand" href="${repositorySiteURL}/index.html">${ecosystemNameHighlight2}</a><span class="brand" style="padding: 5px 5px;">/</span><a class="brand" href="${repositorySiteURL}/${project.artifactId}/index.html">${ticDisplayedName}</a>
 		          ]]>
 				</name>
 			</brand>
@@ -43,7 +53,7 @@
 	<bannerLeft>
 		<name>
           <![CDATA[
-          ${ticName}
+          ${ticDisplayedName}
           ]]>
 		</name>
 		<href>./index.html</href>
