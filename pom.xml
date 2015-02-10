@@ -44,4 +44,11 @@
 		</plugins>
 	</build>
 
+	<scm>
+		<connection>scm:git:http://git.t3soft.org/tic.git</connection>
+		<developerConnection>scm:git:http://git.t3soft.org/tic.git</developerConnection>
+		<url>http://git.t3soft.org/view/?a=summary&amp;p=tic</url>
+		<tag>HEAD</tag>
+	</scm>
+
 </project>
