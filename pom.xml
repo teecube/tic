@@ -10,7 +10,7 @@
 	
 	<groupId>org.t3soft.tic</groupId>
 	<artifactId>tic</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 
 	<packaging>pom</packaging>
 
@@ -25,7 +25,7 @@
 	</distributionManagement>
 
 	<properties>
-		<releaseVersion></releaseVersion>
+		<releaseVersion />
 		<siteTopCaption>${ticDisplayedName}</siteTopCaption>
 
 		<tycho.version>0.22.0</tycho.version>
@@ -48,7 +48,7 @@
 		<connection>scm:git:http://git.t3soft.org/tic.git</connection>
 		<developerConnection>scm:git:http://git.t3soft.org/tic.git</developerConnection>
 		<url>http://git.t3soft.org/view/?a=summary&amp;p=tic</url>
-		<tag>HEAD</tag>
+		<tag>tic/0.0.1</tag>
 	</scm>
 
 </project>
