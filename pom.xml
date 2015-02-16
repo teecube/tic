@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.t3soft</groupId>
 		<artifactId>t3</artifactId>
-		<version>0.0.2</version>
+		<version>0.0.4-SNAPSHOT</version>
 	</parent>
 	
 	<groupId>org.t3soft.tic</groupId>
@@ -20,7 +20,7 @@
 	<distributionManagement>
 		<site>
 			<id>t3.site</id>
-			<url>${settingsRepositorySiteProtocol}${repositorySiteURL}/${ticURLBase}</url>
+			<url>${settingsRepositorySiteProtocol}${siteURL}/${ticURLBase}</url>
 		</site>
 	</distributionManagement>
 
