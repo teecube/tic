@@ -1,6 +1,6 @@
 /**
  * (C) Copyright 2014-2015 T3Soft
- * (http://www.t3soft.org) and others.
+ * (http://t3soft.org) and others.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,13 +14,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package t3.tic.maven.bw6.module;
+package org.t3soft.tic.maven.bw6.module;
 
 import java.io.File;
 
 import org.apache.maven.plugins.annotations.Parameter;
-
-import t3.tic.maven.bw6.AbstractBW6ProjectMojo;
+import org.t3soft.tic.maven.bw6.AbstractBW6ProjectMojo;
 
 /**
  * <p>

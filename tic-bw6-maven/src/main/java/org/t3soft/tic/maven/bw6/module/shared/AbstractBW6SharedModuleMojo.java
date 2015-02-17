@@ -1,6 +1,6 @@
 /**
  * (C) Copyright 2014-2015 T3Soft
- * (http://www.t3soft.org) and others.
+ * (http://t3soft.org) and others.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,15 +14,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package t3.tic.maven.bw6.module.app;
+package org.t3soft.tic.maven.bw6.module.shared;
 
-import t3.tic.maven.bw6.module.AbstractBW6ModuleMojo;
+import org.t3soft.tic.maven.bw6.module.AbstractBW6ModuleMojo;
 
 /**
  *
  * @author Mathieu Debove &lt;mad@t3soft.org&gt;
  *
  */
-public abstract class AbstractBW6AppModuleMojo extends AbstractBW6ModuleMojo {
+public abstract class AbstractBW6SharedModuleMojo extends AbstractBW6ModuleMojo {
 
 }
