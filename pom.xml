@@ -10,7 +10,7 @@
 	
 	<groupId>org.t3soft.tic</groupId>
 	<artifactId>tic</artifactId>
-	<version>0.0.10-SNAPSHOT</version>
+	<version>0.0.10</version>
 
 	<packaging>pom</packaging>
 
@@ -48,7 +48,7 @@
 		<connection>scm:git:http://git.t3soft.org/tic.git</connection>
 		<developerConnection>scm:git:http://git.t3soft.org/tic.git</developerConnection>
 		<url>http://git.t3soft.org/view/?a=summary&amp;p=tic</url>
-		<tag>HEAD</tag>
+		<tag>tic/0.0.10</tag>
 	</scm>
 
 </project>
