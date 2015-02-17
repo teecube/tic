@@ -24,7 +24,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>${ecosystemGroupId}</groupId>
+			<groupId>${ecosystemGroupIdCommon}</groupId>
 			<artifactId>t3-common</artifactId>
 		</dependency>
 

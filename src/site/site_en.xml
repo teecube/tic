@@ -21,6 +21,12 @@
 
 			<slogan>${ticSlogan}</slogan>
 
+			<bottomDescription>
+		        <![CDATA[
+				${ecosystemSumUp}
+		        ]]>
+			</bottomDescription>
+
 			<pages>
 				<index>
 					<titleTemplate>${ecosystemName}</titleTemplate>
