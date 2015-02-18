@@ -10,7 +10,7 @@
 	
 	<groupId>org.t3soft.tic</groupId>
 	<artifactId>tic</artifactId>
-	<version>0.0.14-SNAPSHOT</version>
+	<version>0.0.15-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
