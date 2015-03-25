@@ -31,10 +31,6 @@
 		<tycho.version>0.22.0</tycho.version>
 	</properties>
 
-	<modules>
-		<module>tic-bw6-maven</module>
-	</modules>
-
 	<build>
 		<plugins>
 			<plugin>
