@@ -20,7 +20,8 @@
 	<distributionManagement>
 		<site>
 			<id>t3.site</id>
-			<url>${settingsRepositorySiteProtocol}${siteUploadURL}/${ticURLBase}</url>
+<!-- 			<url>${settingsRepositorySiteProtocol}${siteUploadURL}/${ticURLBase}</url> -->
+			<url>${parent.project.siteUrl}/${ticURLBase}</url>
 		</site>
 	</distributionManagement>
 
