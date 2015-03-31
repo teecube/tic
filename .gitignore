@@ -3,3 +3,4 @@
 .settings/
 target/
 tic-bw6-maven/
+git*.sh
