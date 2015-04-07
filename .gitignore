@@ -2,5 +2,6 @@
 .project
 .settings/
 target/
+tic-bw5-maven/
 tic-bw6-maven/
 git*.sh
