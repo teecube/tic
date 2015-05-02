@@ -13,7 +13,7 @@ The ${ticDisplayedName} - ${ticDisplayedBW6MavenName} is the core Maven plugin
 defining the BW6 lifecycles.
 <div>[Learn more »](${siteDisplayURL}/${ticBW6MavenURLBase}/index.html)</div>
 
-$h1 ${ticDisplayedName} - ${ticDisplayedBW6MavenName}
+$h1 ${ticDisplayedName} - ${ticDisplayedBW5MavenName}
 
 The ${ticDisplayedName} - ${ticDisplayedBW5MavenName} is the core Maven plugin
 defining the BW5 lifecycles.
