@@ -5,12 +5,14 @@
 	xsi:schemaLocation="http://maven.apache.org/DECORATION/1.3.0 http://maven.apache.org/xsd/decoration-1.3.0.xsd">
 
 	<body>
+		<menu name="Documentation" ref="reports"></menu>
+
 		<menu name="${ecosystemName}">
 			<item name="Current versions" href="${siteURL}/current-versions.html" />
 			<item name="" />
-			<item name="TIC" href="${siteDisplayURL}/${ticURLBase}/index.html" />
-			<item name="TAC" href="${siteDisplayURL}/${tacURLBase}/index.html" />
-			<item name="TOE" href="${siteDisplayURL}/${toeURLBase}/index.html" />
+			<item name="${ticName}" href="${siteDisplayURL}/${ticURLBase}/index.html" />
+			<item name="${tacName}" href="${siteDisplayURL}/${tacURLBase}/index.html" />
+			<item name="${toeName}" href="${siteDisplayURL}/${toeURLBase}/index.html" />
 		</menu>
 	</body>
 
@@ -21,11 +23,11 @@
 
 			<slogan>${ticSlogan}</slogan>
 
-			<bottomDescription>
-		        <![CDATA[
-				${ecosystemSumUp}
-		        ]]>
-			</bottomDescription>
+			<bottomNav maxSpan="9">
+				<column></column>
+				<column>Documentation</column>
+				<column>${ecosystemName}</column>
+			</bottomNav>
 
 			<pages>
 				<index>
