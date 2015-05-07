@@ -3,7 +3,8 @@
 #set($h3 = '###')
 #set($h4 = '####')
 
-${ticDisplayedName} is the lowest stack of ${ecosystemNameHighlight}.
+${ticDisplayedName} is the lowest stack of ${ecosystemNameHighlight} to define
+custom lifecycles for TIBCO applications.
 
 ---
 
