@@ -21,7 +21,7 @@
 			<protocolRelativeURLs>false</protocolRelativeURLs>
 			<absoluteResourceURL>${siteURL}</absoluteResourceURL>
 
-			<slogan>${ticSlogan}</slogan>
+			<slogan><![CDATA[${ticSlogan}]]></slogan>
 
 			<bottomNav maxSpan="9">
 				<column></column>
