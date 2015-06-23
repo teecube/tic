@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.teecube.tic</groupId>
+		<artifactId>archetypes</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../../..</relativePath>
+	</parent>
+
+	<groupId>org.teecube.tic</groupId>
+	<artifactId>default-bw6-app-module</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>maven-archetype</packaging>
+	
+	<name>T³ - TIC - Default BW6 app module archetype</name>
+	<description>
+		Default BW6 app module archetype
+	</description>
+
+</project>
