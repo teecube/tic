@@ -22,7 +22,7 @@
 
 	<modules>
 		<!-- bw5 -->
-		<module>bw5/ear/default-ear</module>
+		<!--<module>bw5/ear/default-ear</module>-->
 
 		<!-- bw6 -->
 		<module>bw6/app-module/default-app-module</module>
