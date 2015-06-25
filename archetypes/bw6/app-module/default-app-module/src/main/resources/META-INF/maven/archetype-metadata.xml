@@ -28,6 +28,11 @@
 			<defaultValue>teecube</defaultValue>
 		</requiredProperty>
 		<requiredProperty key="bundleVersion">
+			<defaultValue>1.0.0.qualifier</defaultValue> <!-- default behaviour of tic-bw6 plugin is to fix Bundle-Version in manifest file to sync it with POM version -->
+		</requiredProperty>
+
+		<requiredProperty key="version">
+			<defaultValue>1.0.0-SNAPSHOT</defaultValue>
 		</requiredProperty>
 	</requiredProperties>
 	<fileSets>

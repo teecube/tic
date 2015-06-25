@@ -10,11 +10,23 @@
 	<groupId>org.teecube.tic</groupId>
 	<artifactId>archetypes</artifactId>
 	<packaging>pom</packaging>
-	
-	<name>T³- TIC - Archetypes</name>
+
+	<name>T³ - TIC - Archetypes</name>
 	<description>
 		Archetypes of TIBCO Infrastructure Core
 	</description>
+
+	<properties>
+		<siteTopCaption><![CDATA[<span class="color-highlight">A</span>rchetypes]]></siteTopCaption>
+	</properties>
+
+	<modules>
+		<!-- bw5 -->
+		<module>bw5/ear/default-ear</module>
+
+		<!-- bw6 -->
+		<module>bw6/app-module/default-app-module</module>
+	</modules>
 
 	<build>
 		<extensions>
@@ -24,6 +36,22 @@
 				<version>2.2</version>
 			</extension>
 		</extensions>
+		<plugins>
+			<plugin>
+				<groupId>${ecosystemGroupIdCommon}</groupId>
+				<artifactId>t3-site-enhancer</artifactId>
+				<executions>
+					<execution>
+						<id>update-archetypes-site</id>
+						<goals>
+							<goal>update-archetype</goal>
+						</goals>
+						<configuration>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
 	</build>
 
 </project>

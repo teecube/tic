@@ -6,6 +6,9 @@
 ${ticDisplayedName} is the lowest stack of ${ecosystemNameHighlight} to define
 custom lifecycles for TIBCO applications.
 
+[Archetypes](${siteDisplayURL}/${ticURLBase}/archetypes/index.html) are the best
+way to get started on new or existing projects.
+
 ---
 
 $h1 ${ticDisplayedName} - ${ticDisplayedBW6MavenName}

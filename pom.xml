@@ -31,6 +31,10 @@
 		<tycho.version>0.22.0</tycho.version>
 	</properties>
 
+	<modules>
+		<module>archetypes</module>
+	</modules>
+
 	<build>
 		<plugins>
 			<plugin>

@@ -8,7 +8,7 @@
 		<relativePath>../../..</relativePath>
 	</parent>
 
-	<groupId>org.teecube.tic</groupId>
+	<groupId>org.teecube.tic.archetypes</groupId>
 	<artifactId>default-bw6-app-module</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>maven-archetype</packaging>
@@ -17,5 +17,17 @@
 	<description>
 		Default BW6 app module archetype
 	</description>
+
+	<properties>
+		<siteTopCaption/>
+		<archetypeAdditionalHTML><![CDATA[
+			<p>
+				The default BW6 app module archetype can be used to create an
+				empty
+				<a href="${siteDisplayURL}/${ticBW6MavenURLBase}/index.html">TIBCO BusinessWorks 6</a>
+				app module.
+			</p>
+		]]></archetypeAdditionalHTML>
+	</properties>
 
 </project>
