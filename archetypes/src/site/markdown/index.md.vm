@@ -5,13 +5,15 @@
 
 ${ticDisplayedName} archetypes can be used to quickly create new TIBCO projects.
 
-| Product    | Type       | Archetype                                | Description                                             |
-|------------|------------|------------------------------------------|---------------------------------------------------------|
-| [BW5][bw5] | EAR        | [default-ear][default-ear]               | A TIBCO BusinessWorks 5 project to create an EAR        |
-| [BW6][bw6] | App module | [default-app-module][default-app-module] | A TIBCO BusinessWorks 6 project to create an app module |
+| Product    | Type        | Archetype                                          | Description                                                     |
+|------------|-------------|----------------------------------------------------|-----------------------------------------------------------------|
+| [BW5][bw5] | EAR         | [default-ear][default-ear]                         | Archetype to create a TIBCO BusinessWorks 5 EAR project         |
+| [BW6][bw6] | App module  | [default-bw6-app-module][default-bw6-app-module]   | Archetype to create a TIBCO BusinessWorks 6 app module project  |
+| [BW6][bw6] | Application | [default-bw6-application][default-bw6-application] | Archetype to create a TIBCO BusinessWorks 6 application project |
 
 [bw5]:${siteDisplayURL}/${ticBW5MavenURLBase}/index.html
 [bw6]:${siteDisplayURL}/${ticBW6MavenURLBase}/index.html
 
 [default-ear]:${siteDisplayURL}/${ticURLBase}/archetypes/bw5/ear/default-bw5-ear/index.html
-[default-app-module]:${siteDisplayURL}/${ticURLBase}/archetypes/bw6/app-module/default-bw6-app-module/index.html
+[default-bw6-app-module]:${siteDisplayURL}/${ticURLBase}/archetypes/bw6/app-module/default-bw6-app-module/index.html
+[default-bw6-application]:${siteDisplayURL}/${ticURLBase}/archetypes/bw6/application/default-bw6-application/index.html

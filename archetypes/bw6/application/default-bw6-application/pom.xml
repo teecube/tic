@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>org.teecube.tic</groupId>
+		<artifactId>archetypes</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../../..</relativePath>
+	</parent>
+
+	<groupId>org.teecube.tic.archetypes</groupId>
+	<artifactId>default-bw6-application</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>maven-archetype</packaging>
+	
+	<name>T³ - TIC - Default BW6 application archetype</name>
+	<description>
+		Default BW6 application archetype
+	</description>
+
+	<properties>
+		<siteTopCaption/>
+		<archetypeAdditionalHTML><![CDATA[
+			<p>
+				The default BW6 application archetype can be used to create an
+				empty
+				<a href="${siteDisplayURL}/${ticBW6MavenURLBase}/index.html">TIBCO BusinessWorks 6</a>
+				application.
+			</p>
+		]]></archetypeAdditionalHTML>
+	</properties>
+
+</project>
