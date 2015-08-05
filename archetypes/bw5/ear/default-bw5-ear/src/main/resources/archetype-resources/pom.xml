@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>${groupId}</groupId>
+	<artifactId>${artifactId}</artifactId>
+	<version>${version}</version>
+	<packaging>bw5-ear</packaging>
+
+	<name>${bwProjectName}</name>
+
+	<properties>
+		<tibco.bw5.project.name>${bwProjectName}</tibco.bw5.project.name>
+		<tibco.bw5.project.archiveBuilder>/${tibco.bw5.project.name}.archive</tibco.bw5.project.archiveBuilder>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.teecube.tic</groupId>
+				<artifactId>tic-bw5</artifactId>
+				<version>${ticBW5MavenVersion}</version>
+				<extensions>true</extensions>
+			</plugin>
+		</plugins>
+	</build>
+</project>

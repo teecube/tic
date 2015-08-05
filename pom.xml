@@ -14,7 +14,7 @@
 
 	<packaging>pom</packaging>
 
-	<name>${ecosystemName} - ${ticName}</name>
+	<name>T³ - TIC</name>
 
 	<url>${siteDisplayURL}/${ticURLBase}</url>
 	<distributionManagement>
@@ -36,6 +36,19 @@
 	</modules>
 
 	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>${ecosystemGroupIdCommon}</groupId>
+					<artifactId>t3-site-enhancer</artifactId>
+					<configuration>
+						<extendedSidebars>
+							<extendedSidebar>disabled</extendedSidebar>
+						</extendedSidebars>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
 		<plugins>
 			<plugin>
 				<groupId>${ecosystemGroupIdCommon}</groupId>

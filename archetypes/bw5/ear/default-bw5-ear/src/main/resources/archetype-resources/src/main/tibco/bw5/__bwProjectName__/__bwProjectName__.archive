@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Repository:repository xmlns:Repository="http://www.tibco.com/xmlns/repo/types/2002">
+    <enterpriseArchive>
+        <sharedArchive name="Shared Archive">
+            <resourceType>shared.archive.resource</resourceType>
+            <authorProperty>tic</authorProperty>
+        </sharedArchive>
+        <processArchive name="Process Archive">
+            <resourceType>process.archive.resource</resourceType>
+            <authorProperty>tic</authorProperty>
+            <processProperty>/FilePoller.process</processProperty>
+        </processArchive>
+        <versionProperty>1</versionProperty>
+        <authorProperty>tic</authorProperty>
+        <addServiceSettableGvars>true</addServiceSettableGvars>
+        <name>__bwProjectName__</name>
+        <designer/>
+        <fileLocationProperty/>
+    </enterpriseArchive>
+</Repository:repository>
