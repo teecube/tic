@@ -40,7 +40,7 @@
 			<plugins>
 				<plugin>
 					<groupId>${ecosystemGroupIdCommon}</groupId>
-					<artifactId>t3-site-enhancer</artifactId>
+					<artifactId>t3-maven-enhancer</artifactId>
 					<configuration>
 						<extendedSidebars>
 							<extendedSidebar>disabled</extendedSidebar>
@@ -52,7 +52,7 @@
 		<plugins>
 			<plugin>
 				<groupId>${ecosystemGroupIdCommon}</groupId>
-				<artifactId>t3-site-enhancer</artifactId>
+				<artifactId>t3-maven-enhancer</artifactId>
 			</plugin>
 		</plugins>
 	</build>
