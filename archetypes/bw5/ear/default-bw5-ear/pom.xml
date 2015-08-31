@@ -27,6 +27,7 @@
 				app module.
 			</p>
 		]]></archetypeAdditionalHTML>
+		<archetypeAdditionalArguments>-DticBW5MavenVersion=${ticBW5MavenVersion}</archetypeAdditionalArguments>
 	</properties>
 
 </project>
