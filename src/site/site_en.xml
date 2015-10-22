@@ -8,7 +8,7 @@
 		<menu name="Documentation" ref="reports"></menu>
 
 		<menu name="${ecosystemName}">
-			<item name="Current versions" href="${siteURL}/current-versions.html" />
+			<item name="Current versions" href="${siteDisplayURL}/current-versions.html" />
 			<item name="" />
 			<item name="${ticName}" href="${siteDisplayURL}/${ticURLBase}/index.html" />
 			<item name="${tacName}" href="${siteDisplayURL}/${tacURLBase}/index.html" />
@@ -19,7 +19,7 @@
 	<custom>
 		<reflowSkin>
 			<protocolRelativeURLs>false</protocolRelativeURLs>
-			<absoluteResourceURL>${siteURL}</absoluteResourceURL>
+			<absoluteResourceURL>${siteDisplayURL}</absoluteResourceURL>
 
 			<slogan><![CDATA[${ticSlogan}]]></slogan>
 
