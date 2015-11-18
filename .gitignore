@@ -3,5 +3,5 @@
 .settings/
 target/
 tic-bw5/
-tic-bw6/
+tic-bw6*/
 git*.sh
