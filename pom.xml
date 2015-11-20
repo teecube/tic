@@ -75,9 +75,9 @@
 	</reporting>
 
 	<scm>
-		<connection>scm:git:http://git.t3soft.org/teecube/tic.git</connection>
-		<developerConnection>scm:git:http://git.t3soft.org/teecube/tic.git</developerConnection>
-		<url>http://git.t3soft.org/teecube/tic</url>
+		<connection>scm:git:http://git.teecu.be/teecube/tic.git</connection>
+		<developerConnection>scm:git:http://git.teecu.be/teecube/tic.git</developerConnection>
+		<url>http://git.teecu.be/teecube/tic</url>
 		<tag>HEAD</tag>
 	</scm>
 
