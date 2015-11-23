@@ -30,7 +30,7 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.teecube.tic</groupId>
+				<groupId>io.teecube.tic</groupId>
 				<artifactId>tic-bw6</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
 				<extensions>true</extensions>
