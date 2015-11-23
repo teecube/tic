@@ -4,13 +4,13 @@
 	<parent>
 		<groupId>io.teecube.tic</groupId>
 		<artifactId>archetypes</artifactId>
-		<version>0.0.1-SNAPSHOT</version>
+		<version>0.0.1</version>
 		<relativePath>../../..</relativePath>
 	</parent>
 
 	<groupId>io.teecube.tic.archetypes</groupId>
 	<artifactId>default-bw6-app-module</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>maven-archetype</packaging>
 	
 	<name>T³ - TIC - Default BW6 app module archetype</name>
@@ -19,7 +19,7 @@
 	</description>
 
 	<properties>
-		<siteTopCaption/>
+		<siteTopCaption />
 		<archetypeAdditionalHTML><![CDATA[
 			<p>
 				The default BW6 app module archetype can be used to create an
