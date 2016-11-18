@@ -1,0 +1,32 @@
+#set($h1 = '#')
+#set($h2 = '##')
+#set($h3 = '###')
+#set($h4 = '####')
+
+${ticDisplayedName} is the lowest stack of ${ecosystemNameHighlight} to define
+custom lifecycles for TIBCO applications.
+
+---
+
+$h1 ${ticDisplayedName} - ${ticDisplayedBW6MavenName}
+
+The ${ticDisplayedName} - ${ticDisplayedBW6MavenName} is the core Maven plugin
+defining the [BW6 lifecycles](${siteDisplayURL}/${ticBW6MavenURLBase}/lifecycles.html).
+<div>[Learn more »](${siteDisplayURL}/${ticBW6MavenURLBase}/index.html)</div>
+
+$h1 ${ticDisplayedName} - ${ticDisplayedBW5MavenName}
+
+The ${ticDisplayedName} - ${ticDisplayedBW5MavenName} is the core Maven plugin
+defining the [BW5 lifecycles](${siteDisplayURL}/${ticBW5MavenURLBase}/lifecycles.html).
+<div>[Learn more »](${siteDisplayURL}/${ticBW5MavenURLBase}/index.html)</div>
+
+
+<!--
+- - -
+$h1 ${ticDisplayedName} - Hawk-Eye
+
+The ${ticDisplayedName} - Hawk-Eye is a monitoring helper tool to create, test
+and deploy a full set of rules to monitor real-life projects.
+
+Coming soon...
+-->
