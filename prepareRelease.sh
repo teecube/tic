@@ -1,6 +1,6 @@
 #!/bin/sh
 
-chmod $RELEASE_SH_CHMOD ./release.sh
+chmod $PREPARE_RELEASE_SH_CHMOD ./prepareRelease.sh
 
 . release.properties
 
@@ -10,7 +10,9 @@ $MAVEN_RELEASE_ADDITIONAL_ARGS="-gs /home/m2/settings.xml -P additional,maven,si
 git config --global user.name $GIT_USER_NAME
 git config --global user.email $GIT_USER_EMAIL
 git config --global push.default upstream
-git branch -d $GIT_BRANCH_TO_RELEASE_FROM
-git checkout -b $GIT_BRANCH_TO_RELEASE_FROM remotes/origin/$GIT_BRANCH_TO_RELEASE_FROM
-git branch --set-upstream-to=origin/$GIT_BRANCH_TO_RELEASE_FROM $GIT_BRANCH_TO_RELEASE_FROM
+
+# delete the branch and check it out again from remote
+git branch -d $SOURCE_BRANCH
+git checkout -b $SOURCE_BRANCH remotes/origin/$SOURCE_BRANCH
+git branch --set-upstream-to=origin/$SOURCE_BRANCH $SOURCE_BRANCH
 
