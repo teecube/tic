@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
@@ -10,7 +9,7 @@
 
 	<groupId>io.teecube.tic</groupId>
 	<artifactId>tic</artifactId>
-	<version>0.0.3-SNAPSHOT</version>
+	<version>0.0.4-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
@@ -29,7 +28,7 @@
 		<projectName>${ecosystemName} - ${ticName}</projectName>
 		<projectDescription>${ticName} stands for ${ticFullName} and is composed of several Maven plugins defining core lifecycles for different TIBCO products (BW5, BW6). These plugins can package, deploy and manage configuration of TIBCO applications.</projectDescription>
 		<siteTopCaption>${ticDisplayedName}</siteTopCaption>
-		<siteTopLink />
+		<siteTopLink/>
 
 		<tycho.version>0.22.0</tycho.version>
 	</properties>
