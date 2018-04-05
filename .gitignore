@@ -1,7 +1,10 @@
+# Eclipse
 .classpath
 .project
 .settings/
+# IntelliJ
+.idea
+# Maven
 target/
-tic-bw5/
-tic-bw6*/
+# Misc
 git*.sh
