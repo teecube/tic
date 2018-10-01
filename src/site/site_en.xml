@@ -21,7 +21,7 @@
 			<protocolRelativeURLs>false</protocolRelativeURLs>
 			<absoluteResourceURL>${siteDisplayURL}</absoluteResourceURL>
 
-			<slogan><![CDATA[${ticSlogan}]]></slogan>
+			<slogan><![CDATA[${this.ticSlogan}]]></slogan>
 
 			<bottomNav maxSpan="9">
 				<column></column>
@@ -31,7 +31,7 @@
 
 			<bottomDescription>
 		        <![CDATA[
-				${ecosystemSumUp}
+				${this.ecosystemSumUp}
 		        ]]>
 			</bottomDescription>
 
@@ -52,7 +52,7 @@
 	<bannerLeft>
 		<name>
           <![CDATA[
-          ${ticDisplayedName}
+          ${this.ticDisplayedName}
           ]]>
 		</name>
 		<href>./index.html</href>
