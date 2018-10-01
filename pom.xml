@@ -67,7 +67,7 @@
 					<reportSet>
 						<id>non-aggregate</id>
 						<reports>
-							<report>license</report>
+							<report>licenses</report>
 							<report>scm</report>
 						</reports>
 					</reportSet>
