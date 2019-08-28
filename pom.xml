@@ -9,14 +9,14 @@
 
 	<groupId>io.teecube.tic</groupId>
 	<artifactId>tic</artifactId>
-	<version>0.0.6-SNAPSHOT</version>
+	<version>0.1.0</version>
 
 	<packaging>pom</packaging>
 
-	<name>${projectName}</name> <!-- unleash: 2=<name>${projectName}</name> 3=<name>&#36;{projectName}</name> -->
-	<description>${projectDescription}</description> <!-- unleash: 2=<description>${projectDescription}</description> 3=<description>&#36;{projectDescription}</description> -->
+	<name>T³ - TIC</name> <!-- unleash: 2=<name>${projectName}</name> 3=<name>&#36;{projectName}</name> -->
+	<description>TIC stands for TIBCO Infrastructure Core and is composed of several Maven plugins defining core lifecycles for different TIBCO products (BW5, BW6). These plugins can package, deploy and manage configuration of TIBCO applications.</description> <!-- unleash: 2=<description>${projectDescription}</description> 3=<description>&#36;{projectDescription}</description> -->
 
-	<url>${siteDisplayURL}/${ticURLBase}</url> <!-- unleash: 2=<url>${siteDisplayURL}/${ticURLBase}</url> 3=<url>&#36;{siteDisplayURL}/&#36;{ticURLBase}</url> -->
+	<url>https://teecu.be/tic</url> <!-- unleash: 2=<url>${siteDisplayURL}/${ticURLBase}</url> 3=<url>&#36;{siteDisplayURL}/&#36;{ticURLBase}</url> -->
 	<distributionManagement>
 		<site>
 			<id>t3.site</id>
@@ -68,7 +68,7 @@
 		<connection>scm:git:https://git.teecu.be/teecube/tic.git</connection>
 		<developerConnection>scm:git:https://git.teecu.be/teecube/tic.git</developerConnection>
 		<url>https://git.teecu.be/teecube/tic</url>
-		<tag>HEAD</tag>
+		<tag>v0.1.0</tag>
 	</scm>
 
 </project>
