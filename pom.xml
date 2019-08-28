@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>io.teecube</groupId>
 		<artifactId>t3</artifactId>
-		<version>0.0.17</version>
+		<version>0.1.0</version>
 	</parent>
 
 	<groupId>io.teecube.tic</groupId>
@@ -30,21 +30,9 @@
 		<siteTopCaption>${ticDisplayedName}</siteTopCaption>
 		<siteTopLink/>
 
-		<tycho.version>0.22.0</tycho.version>
+		<tycho.version>1.4.0</tycho.version>
 	</properties>
 
-	<profiles>
-	    <profile>
-			<id>release-profile</id>
-			<activation>
-				<!-- activation is triggered by maven-release-plugin -->
-				<property>
-					<name>performRelease</name>
-					<value>true</value>
-				</property>
-			</activation>
-		</profile>
-	</profiles>
 	<build>
 		<plugins>
 			<plugin>
